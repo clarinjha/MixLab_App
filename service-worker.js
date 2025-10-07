@@ -2,8 +2,8 @@ self.addEventListener("install", event => {
   event.waitUntil(
     caches.open("app-saudacao-cache").then(cache => {
       return cache.addAll([
-        "icone-192.webp",
-        "icon-512.webp",
+        "icone.png",
+        "icone2.png",
         "img/balacobaco.jpg",
         "img/cat.png",
         "img/diamonds.jpg",
